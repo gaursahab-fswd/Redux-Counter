@@ -1,6 +1,6 @@
 const intialState = 0;
 
-const changeTheNumber = (state = initialState,action) =>{
+const changeTheNumber = (state= intialState, action) =>{
 
     switch(action.type){
 
